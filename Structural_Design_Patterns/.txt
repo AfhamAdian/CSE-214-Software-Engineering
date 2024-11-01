@@ -1,0 +1,77 @@
+At "Khaidai Bistro", a small and quirky restaurant in your area, the menu consists of some
+delicious items at a�ordable prices. Here’s what the restaurant currently o�ers:
+1.
+Burger - 300tk
+2.
+Fries - 100tk
+3.
+Wedges - 150tk
+4. Shawarma - 200tk
+5.
+Drink - 25tk
+6.
+Combo1 (Burger + Fries + Drink) - 400tk
+7.
+Combo2 (Shawarma + Drink) - 215tk
+The restaurant’s manager loves experimenting with the menu to create new and exciting
+combos for the customers. Therefore, he requested you to build a system that allows him
+the flexibility to:
+●
+Create his own custom combos by mixing individual food items or existing
+combos.
+●
+Add or remove items from a combo while assembling it.
+●
+Apply discounts to the newly created combos to attract customers (e.g., 10%
+discount).
+●
+Add free items to a combo (like o�ering a free drink or fries).
+●
+Save the created combos to the menu for future orders.
+●
+View the entire menu, including the newly created combos.
+With this system, the manager can have fun playing around with the combos while
+ensuring customers get fresh and exciting options at Khaidai Bistro!
+Output
+Input
+Menu:
+Burger - 300tk
+Fries - 100tk
+Wedges - 150tk
+Shawarma - 200tk
+Drink - 25tk
+Combo1 (Burger + Fries + Drink) - 400tk
+Combo2 (Shawarma + Drink) - 215tk
+Press 1 to create a combo, 2 to view menu
+and 0 to exit
+1
+Enter the name of the combo:
+SuperCombo
+Available commands:
+Add [item]
+Remove [item]
+Free [item]
+Discount [percentage]
+Done
+Add Combo1
+Add Combo2
+Add Burger
+Remove Combo1
+Free Wedges
+Discount 5
+Done
+Your combo:
+SuperCombo
+-
+Combo2 (Shawarma + Drink)
+-
+Burger
+-
+Wedges (Free!!!)
+Total - 515
+Discount - 5%
+Discounted total - 490tk
+Press 1 to create a combo, 2 to view menu
+and 0 to exit
+Identify the design pattern(s) that can best capture the scenario above. Implement the
+scenario in Java.
